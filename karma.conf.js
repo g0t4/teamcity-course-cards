@@ -25,19 +25,7 @@ module.exports = function (config) {
 
     frameworks: ["jasmine"],
 
-    browsers: ["Chrome", "Firefox"],
-
-    plugins: [
-      "karma-chrome-launcher",
-      "karma-firefox-launcher",
-      "karma-jasmine",
-      "karma-junit-reporter"
-    ],
-
-    junitReporter: {
-      outputFile: "test_out/unit.xml",
-      suite: "unit"
-    }
+    browsers: ["Chrome"],
 
   });
 };
