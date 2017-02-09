@@ -6,6 +6,11 @@ module.exports = function (config) {
   config.set({
 
     basePath: "./",
+    
+    plugins: [
+      require('karma-jasmine'), 
+      require('karma-phantomjs-launcher')
+    ],
 
     files: [
       "app/bower_components/angular/angular.js",
