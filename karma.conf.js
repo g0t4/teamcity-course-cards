@@ -9,7 +9,8 @@ module.exports = function (config) {
     
     plugins: [
       require('karma-jasmine'), 
-      require('karma-phantomjs-launcher')
+      require('karma-phantomjs-launcher'),
+      require('karma-teamcity-reporter')
     ],
 
     files: [
